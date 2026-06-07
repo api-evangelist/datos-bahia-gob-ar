@@ -1,0 +1,59 @@
+aid: datos-bahia-gob-ar
+name: Bahia Blanca Open Data
+description: >-
+  Bahia Blanca Open Data is a municipal government open-data portal for Argentina running CKAN.
+  It exposes the CKAN catalog API over approximately 221 datasets.
+kind: government
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/datos-bahia-gob-ar/refs/heads/main/apis.yml
+tags:
+  - Open Data
+  - CKAN
+  - Data Catalog
+  - DCAT
+  - Government Data
+  - Open Data Portal
+  - Municipal Government
+  - Argentina
+created: '2026-06-07'
+modified: '2026-06-07'
+specificationVersion: '0.19'
+apis:
+  - aid: datos-bahia-gob-ar:catalog
+    name: Bahia Blanca Open Data CKAN Action API
+    description: >-
+      CKAN Action API for Bahia Blanca Open Data, ~221 datasets. Base URL https://datos.bahia.gob.ar/api/3/action/.
+    humanURL: https://datos.bahia.gob.ar
+    baseURL: https://datos.bahia.gob.ar/api/3/action
+    tags:
+      - CKAN
+      - Action API
+      - Open Data
+      - Catalog
+      - REST
+      - JSON
+    properties:
+      - type: Documentation
+        url: https://docs.ckan.org/en/latest/api/
+      - type: Website
+        url: https://datos.bahia.gob.ar
+      - type: x-api-endpoint
+        url: https://datos.bahia.gob.ar/api/3/action/status_show
+      - type: x-ckan-version
+        value: '2.7.6'
+common:
+  - type: Website
+    url: https://datos.bahia.gob.ar
+  - type: Documentation
+    url: https://docs.ckan.org/en/latest/api/
+  - type: Plans
+    url: plans/datos-bahia-gob-ar-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/datos-bahia-gob-ar-rate-limits.yml
+  - type: FinOps
+    url: finops/datos-bahia-gob-ar-finops.yml
+  - type: Review
+    url: review.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

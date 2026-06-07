@@ -1,0 +1,11 @@
+name: Bahia Blanca Open Data
+url: https://raw.githubusercontent.com/api-evangelist/datos-bahia-gob-ar/refs/heads/main/review.yml
+created: '2026-06-07'
+modified: '2026-06-07'
+reviews:
+  - date: '2026-06-07'
+    rating: 4
+    summary: Live CKAN API verified (v2.7.6), ~221 datasets.
+    endpoints:
+      - url: https://datos.bahia.gob.ar/api/3/action/status_show
+        status: 200
