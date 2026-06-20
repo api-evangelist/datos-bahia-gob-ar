@@ -4,7 +4,7 @@ description: >-
   Bahia Blanca Open Data is a municipal government open-data portal for Argentina running CKAN.
   It exposes the CKAN catalog API over approximately 221 datasets.
 kind: government
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/datos-bahia-gob-ar/refs/heads/main/apis.yml
 tags:
   - Open Data
